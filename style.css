@@ -1,0 +1,22 @@
+.dice-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+}
+
+.dice {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 100px;
+  height: 100px;
+  border: 2px solid black;
+  font-size: 48px;
+  font-weight: bold;
+  margin: 5px;
+  cursor: pointer;
+  padding: 60px;
+  background-color: beige;
+  position: relative;
+}
